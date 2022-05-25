@@ -5,3 +5,9 @@ h2 {
     text-align: center;
     color: green;
 }
+input {
+    text-align: center;
+}
+div {
+    align-items: center;
+}

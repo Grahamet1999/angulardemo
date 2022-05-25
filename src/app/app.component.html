@@ -1,6 +1,7 @@
-<h1>Welcome to my {{name}}</h1>
-<h2>example of {{topic}}</h2>
+<h1>Welcome to {{name}}</h1>
+<h2>Example of {{topic}}</h2>
 <app-textcomponent></app-textcomponent>
-<app-imagecomponent></app-imagecomponent>
-<input type="text"><br>
+<app-imagecomponent></app-imagecomponent><br>
+<div style="text-align: center;"><input [(ngModel)]="random" type="text"/><br></div>
+<p style="text-align: center;">{{random}}</p>
 <app-buttoncomponent></app-buttoncomponent>
